@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+    <script src="js.js"></script>
+    
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="logo">developer.</h1>
+                <div class="buttons">
+                        <button class="home" onclick="scrollToHome()">Home</button>
+                        <button class="about" onclick="scrollToAbout()">About</button>
+                        <button class="services" onclick="scrollToServices()">Services</button>
+                        <button class="works" onclick="scrollToWorks()">Works</button>
+                        <button class="contact" onclick="scrollToContactSection()">Contact</button>
+                </div>
+
+            <div class="socials">
+  <a href="https://www.facebook.com/profile.php?id=61555279625222" target="_blank" class="social">
+   
+    <svg viewBox="0 0 24 24">
+      <path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v6h3v-6h3l1-3h-4v-2c0-.6.4-1 1-1z"/>
+    </svg>
+  </a>
+
+  <a href="https://x.com/vonkai999" target="_blank" class="social">
+   
+    <svg viewBox="0 0 24 24">
+      <path d="M22 5.8c-.7.3-1.4.5-2.2.6a3.8 3.8 0 001.7-2.1c-.7.4-1.6.7-2.5.9A3.7 3.7 0 0012 8.5c0 .3 0 .6.1.8A10.6 10.6 0 013 4.9a3.7 3.7 0 001.2 5 3.6 3.6 0 01-1.7-.5v.1c0 1.8 1.3 3.3 3 3.6-.3.1-.7.1-1 .1-.3 0-.5 0-.7-.1.5 1.6 2 2.7 3.7 2.7A7.5 7.5 0 012 18.6a10.6 10.6 0 005.7 1.7c6.8 0 10.6-5.7 10.6-10.6v-.5A7.6 7.6 0 0022 5.8z"/>
+    </svg>
+  </a>
+
+  <a href="https://www.instagram.com/yannsllir/" target="_blank" class="social">
+   
+    <svg viewBox="0 0 24 24">
+      <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.8a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/>
+    </svg>
+  </a>
+            </div>
+    </header>
+    <main class="main" id="home-section">
+        <section class="intro">
+            <h1 class="name">I'm Ruslan Tsyhanok, a <h1 class="name-green">frontend developer</h1></h1>
+            <p>This is a brief introduction about myself and my professional background.</p>
+        </section>
+        <button class="big-contact" onclick="openContactModal()">Contact Me</button>
+    </main>
+    <main class="main-2">
+      
+        <section class="me" id="about-section">
+             
+            <h4 class="me-4">About me</h4>
+                <h1 class="me-1">My Biography <span class="title-line"></span></h1>
+                <p class="me-p">I am a passionate frontend developer with experience in creating dynamic and responsive web applications. I specialize in HTML, CSS, and JavaScript, and I am always eager to learn new technologies and improve my skills. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ratione, ex necessitatibus incidunt voluptates dolore molestias pariatur facilis vitae et totam molestiae explicabo optio est consectetur itaque voluptatum. Sequi, hic? 
+                    <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur repellendus alias non porro vel ullam ipsum aut doloremque, ut quas laboriosam dolore aliquam optio laudantium quam consectetur sequi repellat. Unde.
+                </p>
+            </section>
+    </main>
+
+    
+  <main id="services-section">
+          <section class="services-section">
+              <h4 class="services-4">Services</h4>
+                  <h1 class="services-1">My expertise <span class="title-line"></span></h1>
+          </section>
+          <div class="services-cards">
+              <div class="service-card">
+                  <div class="service-icon" style="color: #00b4ff;">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M6 9l6-3 6 3M6 15l6-3 6 3M3 12l9-5 9 5-9 5-9-5z"/>
+                      </svg>
+                  </div>
+                  <h3 class="service-title">Strategy & Direction</h3>
+                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+              </div>
+              <div class="service-card">
+                  <div class="service-icon" style="color: #a855f7;">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <circle cx="12" cy="12" r="1" fill="currentColor"/><path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m6.08 0l4.24-4.24M1 12h6m6 0h6M4.22 19.78l4.24-4.24m6.08 0l4.24 4.24"/>
+                      </svg>
+                  </div>
+                  <h3 class="service-title">Branding & Logo</h3>
+                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+              </div>
+              <div class="service-card">
+                  <div class="service-icon" style="color: #ff9500;">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+                      </svg>
+                  </div>
+                  <h3 class="service-title">Motion & Animation</h3>
+                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+              </div>
+              <div class="service-card">
+                  <div class="service-icon" style="color: #00ff88;">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/>
+                      </svg>
+                  </div>
+                  <h3 class="service-title">Strategy & Direction</h3>
+                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+              </div>
+          </div>
+    </main>
+
+    <main class="works-main" id="works">
+        <h4 class="works-4">Works</h4>
+        <h1 class="works-1">My Recent Projects <span class="title-line"></span></h1>
+        <p class="works-p">A selection of recent projects with slightly varied card sizes to create a dynamic layout.</p>
+
+        <div class="works-cards">
+            <div class="works-card large">
+                <div class="works-thumb"></div>
+                <h3 class="works-title">Project Alpha</h3>
+                <p class="works-desc">A larger featured project showing a key case study and highlights.</p>
+            </div>
+
+            <div class="works-card medium">
+                <div class="works-thumb"></div>
+                <h3 class="works-title">Project Beta</h3>
+                <p class="works-desc">A medium-sized project with focus on UI/UX improvements.</p>
+            </div>
+
+            <div class="works-card small">
+                <div class="works-thumb"></div>
+                <h3 class="works-title">Project Gamma</h3>
+                <p class="works-desc">A compact project — small scope, big impact.</p>
+            </div>
+
+            <div class="works-card medium">
+                <div class="works-thumb"></div>
+                <h3 class="works-title">Project Delta</h3>
+                <p class="works-desc">Design system and component library work.</p>
+            </div>
+
+            <div class="works-card small">
+                <div class="works-thumb"></div>
+                <h3 class="works-title">Project Epsilon</h3>
+                <p class="works-desc">Micro-interactions and animations.</p>
+            </div>
+        </div>
+    </main>
+   
+
+    <main class="hire-me-section" id="contact-section">
+        <h4 class="hire-4">Hire me to get best</h4>
+        <h1 class="hire-1">Want to start your next project with me?<br/>Let's chat about your goals</h1>
+        <button class="hire-btn" onclick="scrollToContact()">Hire Me</button>
+    </main>
+
+    <button class="scroll-to-top" id="scrollToTopBtn" onclick="scrollToTop()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-logo">developer.</h3>
+            </div>
+            <div class="footer-section">
+                <p class="footer-email">tsyhanok127@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <p class="footer-address">1F/1A Michalczyka street, Postal Code 53-633<br/>Wroclaw, PL — +48515002199</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copyright">Copyright © 2026 Arbbest Ltd. Ruslan's CV. All rights reserved.</p>
+            <div class="footer-stay">
+                <span>STAY CONNECTED</span>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/profile.php?id=61555279625222" target="_blank" class="footer-social">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v6h3v-6h3l1-3h-4v-2c0-.6.4-1 1-1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://x.com/vonkai999" target="_blank" class="footer-social">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22 5.8c-.7.3-1.4.5-2.2.6a3.8 3.8 0 001.7-2.1c-.7.4-1.6.7-2.5.9A3.7 3.7 0 0012 8.5c0 .3 0 .6.1.8A10.6 10.6 0 013 4.9a3.7 3.7 0 001.2 5 3.6 3.6 0 01-1.7-.5v.1c0 1.8 1.3 3.3 3 3.6-.3.1-.7.1-1 .1-.3 0-.5 0-.7-.1.5 1.6 2 2.7 3.7 2.7A7.5 7.5 0 012 18.6a10.6 10.6 0 005.7 1.7c6.8 0 10.6-5.7 10.6-10.6v-.5A7.6 7.6 0 0022 5.8z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/yannsllir/" target="_blank" class="footer-social">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.8a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <div class="contact-modal" id="contactModal">
+        <div class="modal-overlay" onclick="closeContactModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeContactModal()">&times;</button>
+            
+            <h2 class="modal-title">Привет!</h2>
+            <p class="modal-subtitle">Спасибо, что выбрал меня. Вот мои контакты:</p>
+            
+            <div class="contact-item">
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <path d="M22 6l-10 7L2 6" fill="none" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <a href="mailto:tsyhanok127@gmail.com" class="contact-link">tsyhanok127@gmail.com</a>
+            </div>
+            
+            <div class="contact-item">
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17 10.5V7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/>
+                </svg>
+                <a href="tel:+48515002199" class="contact-link">+48-515-002-199</a>
+            </div>
+            
+            <div class="modal-socials">
+                <p class="modal-subtitle">Мои соцсети:</p>
+                <div class="modal-social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61555279625222" target="_blank" class="modal-social" title="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v6h3v-6h3l1-3h-4v-2c0-.6.4-1 1-1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/yannsllir/" target="_blank" class="modal-social" title="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.8a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/>
+                        </svg>
+                    </a>
+                    <a href="https://x.com/vonkai999" target="_blank" class="modal-social" title="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22 5.8c-.7.3-1.4.5-2.2.6a3.8 3.8 0 001.7-2.1c-.7.4-1.6.7-2.5.9A3.7 3.7 0 0012 8.5c0 .3 0 .6.1.8A10.6 10.6 0 013 4.9a3.7 3.7 0 001.2 5 3.6 3.6 0 01-1.7-.5v.1c0 1.8 1.3 3.3 3 3.6-.3.1-.7.1-1 .1-.3 0-.5 0-.7-.1.5 1.6 2 2.7 3.7 2.7A7.5 7.5 0 012 18.6a10.6 10.6 0 005.7 1.7c6.8 0 10.6-5.7 10.6-10.6v-.5A7.6 7.6 0 0022 5.8z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
